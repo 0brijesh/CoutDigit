@@ -1,0 +1,53 @@
+/* START HEADER CSS */
+.header {
+  background-color: var(--natural-color-600);
+  border-bottom: 1px solid var(--natural-color-600);
+  padding: var(--size-20) 0px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  transition: all 0.5s;
+}
+.header-wrapper-left .header-logo-wrapper {
+  max-width: 160px;
+}
+.header-wrapper-left .header-logo-wrapper img {
+  object-fit: contain;
+}
+.header-wrapper-left ul {
+  font-size: var(--font-16);
+  margin-left: var(--size-64);
+}
+.header-wrapper-left ul li a {
+  line-height: var(--size-22);
+  transition: all 0.3s;
+  padding: 10px;
+}
+.header-wrapper-left ul li:not(:first-child) {
+  margin-left: var(--size-32);
+}
+.header-wrapper-left ul li a.active,
+.header-wrapper-left ul li a:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+.header-wrapper-right .btn-signup {
+  background-color: var(--natural-color-600);
+  color: var(--primary-color);
+  margin-right: 5px;
+}
+.header-scoll-visible {
+  background-color: var(--natural-color-600);
+  -webkit-box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 40%);
+}
+.logo-wrapper{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.logo-wrapper svg{
+  margin-right: 7px;
+}
+/* END HEADER CSS */
