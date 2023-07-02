@@ -153,6 +153,17 @@
   .meet-our-team-col h4 {
     font-size: 18px;
   }
+  .hero-section0 h2{
+    max-width: 600px;
+    font-size: 36px;
+  }
+  .hero-section0 h3{
+    font-size: 25px;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -296,7 +307,7 @@
   .messaging-all-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-  .slider-left p {
+  .slider-left p,.hero-section0 h3 {
     font-size: 18px;
   }
   :root {
@@ -400,6 +411,22 @@
   .meet-our-team-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 80px 30px;
+  }
+  .hero-section0 h2{
+    max-width: 95%;
+    font-size: 26px;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    top: unset;
+  }
+  .swiper-button-prev{
+    left: 35%;
+  }
+  .swiper-button-next{
+    left: 55%;
   }
 }
 
@@ -524,6 +551,13 @@
   }
   .client-image img {
     border-radius: 5px;
+  }
+  .coming-soon-section h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  .hero-section0 h3{
+    font-size: 14px;
   }
 }
 

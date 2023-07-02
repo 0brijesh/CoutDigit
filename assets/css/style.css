@@ -1,7 +1,7 @@
 /* START HERO CSS */
 .hero-wrapper {
   background-color: var(--natural-color-100);
-  padding: var(--size-80) 0 112px 0;
+  padding: var(--size-88) 0 112px 0;
 }
 .hero-left {
   max-width: 525px;
@@ -460,3 +460,59 @@
   color: var(--primary-color);
 }
 /* END ABOUT SECTION */
+/* START HERO SECTION */
+.hero-section0{
+  min-height: calc(100vh - var(--header-height));
+}
+.hero-section0-img{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: inherit;
+  z-index: 1;
+}
+.hero-section0-img0{
+  background-image: url(./../images/hero/business-consultant-hero-man.webp);
+}
+.hero-section0-img1{
+  background-image: url(./../images/hero/business-consultant-hero-man-1.jpg);
+}
+.hero-section0-img::after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.hero-section0 h2{
+  font-size: 50px;
+  line-height: 1.3;
+  color: var(--white-color);
+  max-width: 900px;
+  margin: 0 auto 20px;
+}
+.hero-section0 h3{
+  font-size: 30px;
+  color: var(--white-color);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.hero-section0 h3 span.typer{
+  background-color: var(--white-color);
+  padding: 2px 10px;
+  border-radius: 2px;
+}
+/* START COMING SOON */
+.coming-soon-section h1{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.coming-soon-section a{
+  font-size: 20px;
+  font-weight: 500;
+}
+/* END COMING SOON */

@@ -98,3 +98,11 @@ const countupEls = document.querySelectorAll(".timer");
 countupEls.forEach(animateCountUp);
 
 // END COUNTING NUMBER JS
+// START SWIPER JS
+var swiper = new Swiper(".mySwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+// END SWIPER JS
